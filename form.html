@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Form Page</title>
+	</head>
+	<body>
+		<form>
+			<label for="firstName">First Name:</label>
+			<input id="firstName" type="text" name="firstName">
+			<label for="lastName">Last Name:</label>
+			<input id="lastName" type="text" name="lastName">
+			<label for="email">Email:</label>
+			<input id="email" type="email" name="email">
+			<label for="telephone">Telephone</label>
+			<input id="telephone" type="tel" name="telephone">
+			<label for="yourMessage">Your Message:</label>
+			<textarea id="yourMessage" name="yourMessage"></textarea>
+			<label for="favoriteColor">What is your favorite color?</label>
+			<select id="favoriteColor" name="favoriteColor">
+				<option value="colorRed">Red</option>
+				<option value="colorGreen">Green</option>
+				<option value="colorBlue">Blue</option>
+			</select>
+			<fieldset>
+				<legend>What is your favorite meal?</legend>
+				<input id="breakfast" type="radio" name="favoriteMeal" value="meal1"><label for="breakfast">Breakfast</label>
+				<input id="lunch" type="radio" name="favoriteMeal" value="meal2"><label for="lunch">Lunch</label>
+				<input id="dinner" type="radio" name="favoriteMeal" value="meal3"><label for="dinner">Dinner</label>
+			</fieldset>
+			<fieldset>
+				<legend>Which meals do you enjoy? (Check all that apply)</legend>
+				<input id="breakfast" type="checkbox" name="favoriteMeal" value="meal1"><label for="breakfast">Breakfast</label>
+				<input id="lunch" type="checkbox" name="favoriteMeal" value="meal2"><label for="lunch">Lunch</label>
+				<input id="dinner" type="checkbox" name="favoriteMeal" value="meal3"><label for="dinner">Dinner</label>
+			</fieldset>
+			<input type="submit" value="Submit">
+		</form>
+		<p><a href="home.html">Back to Home Page</a></p>
+	</body>
+</html>
