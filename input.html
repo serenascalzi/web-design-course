@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Table Page</title>
+		<title>Input Page</title>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
@@ -25,38 +25,27 @@
 					<h2>Main Column Heading</h2>
 					<p>This is the main area (or column). Selfies bespoke brooklyn direct trade ethical taiyaki, hammock +1. Umami ugh wayfarers, humblebrag chia crucifix fanny pack hot chicken shabby chic occupy hammock af. Messenger bag cold-pressed subway tile polaroid microdosing, readymade activated charcoal retro synth vaporware everyday carry. Etsy meggings small batch typewriter. Before they sold out twee intelligentsia, jean shorts butcher flannel synth slow-carb letterpress freegan palo santo church-key woke mustache messenger bag. Gochujang kombucha direct trade photo booth master cleanse truffaut letterpress narwhal butcher cred meditation retro pour-over glossier. Food truck 90's raw denim sriracha, vexillologist kinfolk aesthetic YOLO.
 					</p>
-					<table class="grocery-list">
-						<thead>
-							<tr>
-								<th class="col-item-name">Name</th>
-								<th class="col-aisle">Aisle</th>
-								<th class="col-price">Price</th>
-								<th class="col-quantity">Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Bread</td>
-								<td>2</td>
-								<td>$3.00</td>
-								<td>1</td>
-							</tr>
-							<tr>
-								<td>Milk</td>
-								<td>1</td>
-								<td>$2.50</td>
-								<td>2</td>
-							</tr>
-						</tbody>
-						<tfoot>
-							<tr>
-								<td>Total</td>
-								<td>N/A</td>
-								<td>$5.50</td>
-								<td>N/A</td>
-							</tr>
-						</tfoot>
-					</table>
+					<form>
+						<label for="email" class="hidden-label">Email</label>
+						<input type="email" name="email" id="email" placeholder="Email">
+
+						<label for="password" class="hidden-label">Password</label>
+						<input type="password" name="password" id="password" placeholder="Password">
+
+						<select>
+							<option>Initially view...</option>
+							<option>My Profile</option>
+							<option>Inbox</option>
+							<option>Account Settings</option>
+						</select>
+
+						<input type="submit" value="Sign In">
+
+						<label>
+							<input type="checkbox" name="remember" checked="checked" value="yes">
+							<span class="checkbox-text">Stay signed in</span>
+						</label>
+					</form>
 					<p>Pok pok copper mug quinoa next level. Tote bag biodiesel bushwick etsy, try-hard sartorial bicycle rights YOLO hot chicken forage selvage. Leggings pok pok cronut echo park health goth narwhal gochujang aesthetic 3 wolf moon. Edison bulb hot chicken microdosing roof party 8-bit tousled. Selvage master cleanse flannel, enamel pin scenester gluten-free chicharrones butcher hot chicken chia aesthetic quinoa hashtag.</p>
 				</div>
 				<aside class="sidebar">
